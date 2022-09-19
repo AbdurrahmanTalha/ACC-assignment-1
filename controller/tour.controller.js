@@ -1,4 +1,4 @@
-const { getTourService, createTourService, getTourIdService, updateTourIdServer, getTrendingService, getCheapestService } = require("../service/tour.service");
+const { getTourService, createTourService, getTourIdService, updateTourIdServer, getTrendingService, getCheapestService } = require("service/tour.service");
 
 exports.getTours = async (req, res) => {
     try {
