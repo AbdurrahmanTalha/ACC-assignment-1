@@ -1,4 +1,4 @@
-const Tour = require("/models/tour");
+const Tour = require("../models/tour");
 
 exports.getTourService = async (filter, { skip, limit = 10, sortBy, fields }) => {
     const tours = await Tour.find(filter)
