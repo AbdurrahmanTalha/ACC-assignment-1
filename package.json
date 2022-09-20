@@ -2,7 +2,7 @@
   "name": "assingment-2",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js.js",
+  "main": "server.js",
   "engines": {
     "node": "v16.17.0",
     "npm": "8.15.0"
